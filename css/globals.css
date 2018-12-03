@@ -1,0 +1,27 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	box-sizing: border-box;
+}
+main {
+	animation: .5s bodyPopIn ease-in-out;
+}
+@keyframes bodyPopIn {
+	from{
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+	color: inherit;
+	text-decoration: none;
+}

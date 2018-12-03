@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url(reset.css);
+@import url(header.css);
+@import url(globals.css);
+@import url(navigation.css);
+@import url(search-bar.css);
+@import url(friends.css);
+@import url(chats.css);
+@import url(find.css);
+@import url(more.css);
+@import url(profile.css);
+@import url(chat.css);
+@import url(bigScreen.css);
+@import url(mobile.css);

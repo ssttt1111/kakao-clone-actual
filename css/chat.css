@@ -1,0 +1,110 @@
+.body-chat {
+	padding-bottom: 0;
+}
+.chat-header,
+.chat-header a i {
+	background-color: #a1c0d6;
+	color: black;
+}
+.chat-header {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.chat {
+	background-color: #a1c0d6;
+	height: 100vh;
+	padding-top: 15px;
+	padding-right: 5px;
+}
+.chat .date-divider {
+	text-align: center;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 10px;
+}
+.chat__message {
+	display: flex;
+	margin-bottom: 10px;
+	align-items: flex-end;
+}
+.chat__message-from-me {
+	justify-content: flex-end;
+}
+.chat__message--to-me img {
+	align-self:  flex-start;
+}
+.chat__mesaage-time {
+	font-size: 10px;
+	color: rgba(0, 0, 0, 0.5);
+}
+.chat__message-from-me .chat__message-body {
+	background-color: #ffe934;
+	margin-left: 5px;
+}
+.chat__message-body  {
+	padding: 10px 5px;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 5px;
+}
+.chat__message--to-me img {
+	height: 35px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.chat__message .chat__message-username {
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.chat__message-center {
+	display: flex;
+	flex-direction: column;
+}
+.type-message {
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	height: 45px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.type-message i.fa-plus {
+	color: #686868;
+	border: 1px solid #686868;
+	padding: 3px;
+	border-radius: 7px;
+}
+.type-message__input {
+	width: 90%;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.type-message input {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	background-color: #f7f7f7;
+	border: 1px solid #e3e3e3;
+	border-radius: 30px;
+}
+.type-message__input .fa-smile {
+	position: absolute;
+	right: 40px;
+	color: #686868;
+}
+.type-message .record-message {
+	color: #686868;
+	position: absolute;
+	right: 10px;
+}
+.type-message i.fa-plus,
+.type-message__input .fa-smile,
+.type-message .record-message {
+	cursor: pointer;
+}
+
